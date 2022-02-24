@@ -3,9 +3,9 @@
     Свойствами выступают: Ella, Sophia, Ellie
 Выведите на экран зарплату Ella, Sophia.*/
 let userSalaries = {
-    Ella :'50 тыс',
-    Sophia :'55 тыс',
-    Ellie :'60 тыс',
+    Ella :50000,
+    Sophia :55000,
+    Ellie :60000
 }
 
 console.log(`${userSalaries.Ella}, ${userSalaries.Sophia}`);
