@@ -3,13 +3,12 @@
     Свойствами выступают: Ella, Sophia, Ellie
 Выведите на экран зарплату Ella, Sophia.*/
 let userSalaries = {
-    'Ella' :'50 тыс',
-    'Sophia' :'55 тыс',
-    'Ellie' :'60 тыс',
+    Ella :'50 тыс',
+    Sophia :'55 тыс',
+    Ellie :'60 тыс',
 }
 
-alert (userSalaries['Ella']);
-alert (userSalaries['Sophia']);
+console.log(`${userSalaries.Ella}, ${userSalaries.Sophia}`);
 
 /*
 2) Создайте объект с ключами a, b и c значениями 5 , 6 и 10.
@@ -21,9 +20,7 @@ let value = {
     c : 10
 }
 
-let result = (value.a + value.b + value.c)
-alert(result);
-console.log(result)
+console.log(value.a + value.b + value.c);
 
 /*
 3) let number;
@@ -35,10 +32,9 @@ if(data === true){
 
 Сделайте рефакторинг кода, с помощью тернарного оператора.*/
 
-let number = true;
-let access = number === true ? 3 : 5 ;
-alert(access);
-console.log(access);
+let data = true;
+let number = data === true ? 3 : 5 ;
+console.log(number);
 
 /*4) Используя конструкцию if..else, напишите код, который будет спрашивать: «Кто такой В.В.ПУТИН?».
 Если посетитель вводит «Президент», то выводить «Верно!», если что-то другое – выводить «Не знаете?».*/
