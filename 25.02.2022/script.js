@@ -50,7 +50,7 @@ for(let a = 0; a < count.length; a++){
     console.log(multiply)
 }
 let totalSum = 0;
-for( c = 0, sum2 = 0; c < sum1.length; c++) {
+for( c = 0; c < sum1.length; c++) {
     totalSum += sum1[c];
 }
 console.log(totalSum);
