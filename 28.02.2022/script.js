@@ -61,13 +61,12 @@ getName();
 function total (num1) {
     const mass = [];
     for(let i = 0; i < num1.length; i++){
-       let  count = num1[i]+ num1[i];
-       mass.push(count);
+        let  count = num1[i]+ num1[i];
+        mass.push(count);
     }
+    return mass;
 }
 total([1,2,3]);
 total([4, 1, 1, 1, 4]);
 total([2, 2, 2, 2, 2, 2]);
 console.log(mass);
-
-
