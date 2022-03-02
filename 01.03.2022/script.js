@@ -38,5 +38,4 @@ for( let a=0; a < numbers2.length; a++ ) {
         alert('ЕСТЬ!!!');
     }
 }
-console.log(numbers2[a]);
 
