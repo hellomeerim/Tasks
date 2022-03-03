@@ -22,10 +22,9 @@ setTimeout(time, 8000, 'Hello after 8 seconds');
 произведение этих аргументов.*/
 
 function mul (n,m){
-    console.log(n * m);
-    alert(n * m);
+    return n * m;
 }
-setTimeout(mul,10000,2,3);
+console.log(mul(2,3));
 /*3) Создайте функцию и с помощью цикла найдите факториал числа 7:
 Название для функции можно дать любую.
     Например при вызове функции factorial с параметром 7 в консоли должно
