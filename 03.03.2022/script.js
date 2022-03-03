@@ -40,7 +40,7 @@ function factorial (arguments){
 }
 console.log(factorial(7));
 
-
+// test
 
 
 
