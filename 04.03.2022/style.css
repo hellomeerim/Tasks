@@ -1,0 +1,14 @@
+body{
+    margin: 0 auto;
+}
+.projects {
+    border: 2px solid violet;
+    padding: 20px;
+    width: 320px;
+}
+button{
+    border: 2px solid violet;
+    background:violet;
+    color: white;
+    padding: 10px 60px;
+}
