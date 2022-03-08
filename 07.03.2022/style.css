@@ -1,0 +1,20 @@
+.notification{
+    height: 50px;
+    width: 450px;
+    background-color: #D3E1FC;
+    display: flex;
+    align-items: center;
+    margin: 15px;
+    color: #1C4193;
+    border-radius: 15px;
+    padding-left: 20px;
+    position: fixed;
+    right: -5px;
+    top: 10px;
+}
+.notification:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+
