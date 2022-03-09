@@ -1,0 +1,18 @@
+.general{
+    border: none;
+    background-color: mediumvioletred;
+    /*background-color: #D3E1FC;*/
+    color: white;
+    padding: 10px 30px;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+.general:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.d-block{
+    display: block!important;
+}
