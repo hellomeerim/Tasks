@@ -14,7 +14,7 @@ let info = document.querySelector('.notification');
 
 function showNotification() {
     info.classList.add('notification');
-    //info.classList.remove('notification');
+    info.classList.remove('notification');
 }
 
 setTimeout(showNotification, 1500);
@@ -22,4 +22,5 @@ setTimeout(showNotification, 1500);
 setTimeout(function(){
     document.getElementById('message').style.display = 'none';
 }, 1500);
+
 
