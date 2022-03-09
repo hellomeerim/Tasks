@@ -72,23 +72,3 @@ const hideNotification = () => {
     notification.textContent = 'A simple dark alert—check it out!';
 
 */
-
-
-
-/************ Test *************/
-/*
-let button = document.querySelector('#click');
-
-const changeStyle = () => {
-    notification.style.width = '500px';
-    notification.style.backgroundColor = '#D3E1FC';
-    notification.style.color = '#084298';
-    notification.textContent = 'A simple primary alert—check it out!';
-    setTimeout(function(){
-        document.getElementById('click').style.display = 'none';
-    }, 1500);
-}
-
-notification.addEventListener('click',() => {
-    changeStyle()
-});*/
