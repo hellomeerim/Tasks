@@ -1,4 +1,5 @@
-let button = document.querySelector('#click');
+let button1 = document.querySelector('#click1');
+
 let notification = document.querySelector('#message');
 
 const showNotification = ({className}) => {
@@ -12,7 +13,7 @@ const showNotification = ({className}) => {
     notification.textContent = 'A simple primary alert—check it out!';
 }
 
-button.addEventListener('click',() => {
+button1.addEventListener('click',() => {
     showNotification({className:'Welcome'});
 });
 

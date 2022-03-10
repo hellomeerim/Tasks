@@ -1,0 +1,31 @@
+.main{
+    width: 700px;
+    height: 120px;
+    border: 5px solid #684CD7;
+}
+.main1{
+    width: 700px;
+    height: 100px;
+}
+h1{
+    text-align: center;
+    color: #684CD7;
+    font-weight: 900;
+    font-size: 50px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+}
+button{
+    padding: 10px 50px;
+    height: 40px;
+    border-radius: 15px;
+    border: 2px solid #684CD7;
+    color: white;
+    background-color: #684CD7;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+
