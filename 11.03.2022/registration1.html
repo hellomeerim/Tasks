@@ -9,32 +9,34 @@
     <link rel="stylesheet" href="./css/registration1.css">
 </head>
 <body>
-<div class="main1">
-    <!--    <img src="img/x.svg" alt="" class="x">-->
+<div id="message"></div>    
+<div class="main1"> 
     <div class=main1-1">
         <h2>Анкета для корпоративных клиентов</h2>
         <p>Личные данные</p>
-        <input id="surname" type="text" placeholder="Фамилия" class="margin-1">
+        <input id="surname" type="text" placeholder="Фамилия" class="margin-1" >
         <input id="name" type="text" placeholder="Имя" class="margin-1">
         <input id="patronymic" type="text" placeholder="Отчество">
     </div>
     <div class="main1-2">
         <p>Паспортные данные</p>
         <div class="row1">
-            <div class="birthdate">
+            <!-- <div class="birthdate">
                 <div> Дата рождения</div>
                 <div><img src="img/calendar.svg" alt=""></div>
-            </div>
+            </div> -->
+            <input type="date" placeholder="Дата рождения" class="date" id="dateBirth">
             <input id="address" type="text" placeholder="Место проживания по прописке" class="adress">
         </div>
         <br>
         <div class="row2">
             <input id="id" type="text" placeholder="Серийный номер AN/ID" class="margin-2">
             <input id="tin" type="text" placeholder="ИНН" class="margin-2">
-            <div class="birthdate">
+            <input type="date" placeholder="Дата получения" class="date" id="dateOfGetting">
+            <!-- <div class="birthdate">
                 <div> Дата получения</div>
                 <div><img src="img/calendar.svg" alt=""></div>
-            </div>
+            </div> -->
         </div>
         <br>
         <div class="row3">
@@ -45,16 +47,11 @@
                 <option value="2" class="bank-value">Бакай Банк</option>
                 <option value="3" class="bank-value">Дос Кредо Банк</option>
             </select>
-            <!--            <div class="bankname">-->
-            <!--                <div>Наименование банка</div>-->
-            <!--                <div><img src="img/chevron-right.svg" alt=""></div>-->
-            <!--            </div>-->
+            
         </div>
         <br>
         <input id="home-address" type="text" placeholder="Фактическое место проживания" class="adress1">
-        <!--        <div class="button"><button>Далее</button></div>-->
-        <!-- <div class="button" ><button id="btn"><a href="#">Далее</a></button></div> -->
-        <!-- <div class="button" ><button id="btn">Оформить заявку</button></div> -->
+    
         <div class="button" ><button id="btn1">Далее</button></div>
     </div>
 </div>

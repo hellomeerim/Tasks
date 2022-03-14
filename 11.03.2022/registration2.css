@@ -111,3 +111,15 @@ input::-webkit-input-placeholder {
     font-weight: bold;
 }
 
+.d-block{
+    display: block!important;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    color: #084298;
+    background-color: #cfe2ff;
+    border-color: #b6d4fe;
+    width: 300px;
+    padding: 15px;
+    border-radius: 15px;
+}

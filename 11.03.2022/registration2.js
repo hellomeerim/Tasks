@@ -14,8 +14,6 @@ btnSubmit.onclick = (event) => {
     let creditMonth = document.querySelector('#credit-month').value;
     let creditAddress = document.querySelector('#credit-address').value;
 
-
-
     let object = {
         name: userName,
         position: userPosition,
@@ -31,6 +29,22 @@ btnSubmit.onclick = (event) => {
     }
 
     console.log(object)
+    let notification = document.querySelector('#message');
+ 
+    const showNotification = () => {
+        setTimeout(hideNotification,2000);
+        notification.classList.add('d-block');
+        notification.textContent = 'Пожалуйста, обязательно введите данные: Наименование организации, Должность, Заработная плата в  месяц, Заработная Плата  за посл.  3 месяца';
+    }
+    
+    const hideNotification = () => {
+        notification.classList.remove('d-block');
+    }
 
+    if (userName === '' || userPosition === '' || userMonthSalary === '' || userPeriodSalary === ''){
+        showNotification()
+    } else {
+        console.log(object)
+    }
 }
 
