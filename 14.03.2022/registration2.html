@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hometask2/08.02.2022/Мээрим Эгембердиева</title>
+    <link rel="stylesheet" href="./css/registration2.css">
+</head>
+<body>
+<div id="message"></div> 
+<div class="main2">
+    <form action="javascript:void(0)">
+        <div class="main2-1">
+            <h2>Данные о ваших доходах</h2>
+            <input id="user-name" type="text" placeholder="Наименование организации" class="name">
+            <input id="user-position" type="text" placeholder="Должность">
+            <input id="user-month-salary" type="text" placeholder="Заработная плата в  месяц" class="row2 margin-row2">
+            <input id="user-period-salary" type="text" placeholder="Заработная Плата  за посл.  3 месяца" class="row2">
+        </div>
+        <div class="main2-2">
+            <p>Сведения о кредите</p>
+            <input id="phone-style" type="text" placeholder="Покупка телефона ( наименование товара)" class="row3">
+            <div class="row4">
+                <input id="cost" type="text" placeholder="Стоимость товара" class="row4-margin">
+                <input id="product-number" type="text" placeholder="Количество товара" class="row4-margin">
+                <input id="total-sum" type="text" placeholder="Итого сумма кредита">
+            </div>
+            <div class="row5">
+                <select id="credit-info" class="row5-1">
+                    <option hidden disabled selected value>Вид кредита</option>
+                    <option class="color-choose" value="2">Расрочка</option>
+                    <option class="color-choose" value="3">Кредит</option>
+                </select>
+                <select id="credit-month" class="row5-2">
+                    <option hidden disabled selected value>Срок кредита</option>
+                    <option class="color-choose" value="2">3 месяца</option>
+                    <option class="color-choose" value="3">6 месяцев</option>
+                    <option class="color-choose" value="4">9 месяцев</option>
+                    <option class="color-choose" value="5">12 месяцев</option>
+                </select>
+            </div>
+            <select id="credit-address" class="row6">
+                <option hidden disabled selected value>Точка получения товара</option>
+                <optgroup label="ТЦ «Азия Молл»" class="optgroup">
+                    <option class="color-choose" value="2"> пр. Айтматова, 3, ТЦ «Asia Mall», этаж 0</option>
+                </optgroup>
+                <optgroup label="ТЦ ГУМ «Чынар»" class="optgroup">
+                    <option class="color-choose" value="2">  пр.Чуй 92, ТРК ГУМ «Чынар», этаж -1 , бутик M9 (северная сторона)</option>
+                </optgroup>
+                <optgroup label="ТЦ «Beta Stores - 2»" class="optgroup">
+                    <option class="color-choose" value="2"> ул. Юнусалиева 177/2,торговый центр «Beta Stores - 2»</option>
+                </optgroup>
+                <optgroup label="ТЦ Vefa Center" class="optgroup">
+                    <option class="color-choose" value="2"> ул. Горького 27/1,"Vefa Center",1 этаж. Бутик № 20</option>
+                </optgroup>
+                <optgroup label="ТЦ «Беш-Сары Сити» " class="optgroup">
+                    <option class="color-choose" value="2"> Бейшеналиева 42А, ТЦ «Беш-Сары Сити»</option>
+                </optgroup>
+                <optgroup label="ТРЦ «Аламедин Гранд»" class="optgroup">
+                    <option class="color-choose" value="2">  пр. Жибек Жолу, 150 ТРЦ «Аламедин Гранд», 1 этаж, Бутик №1 (вход с ул. Алма-Атинская)</option>
+                </optgroup>
+            </select>
+            <!-- <button id="btn" class="button">Оформить заявку</button> -->
+            <div class="button" ><button id="btn"><a href="#"class="button">Оформить заявку</a></button></div>
+
+        </div>
+    </form>
+</div>
+<script src="registration2.js"></script>
+</body>
+</html>

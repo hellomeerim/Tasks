@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100&display=swap');
+
+body{
+    background-color: black;
+}
+.main2{
+    margin: 0 auto;
+    width: 664px;
+    height: 576px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: white;
+    padding: 30px 20px 20px 20px;
+    font-family: 'Sora', sans-serif;
+}
+.main2-1 h2{
+    font-size: 16px;
+}
+.main2-1 input , .main2-2  input{
+    padding: 15px;
+    justify-content: space-around;
+    border: 1px solid #DADADA;
+    border-radius: 8px;
+    font-size: 14px;
+}
+.name{
+    width: 408px;
+    margin-right: 5px;
+}
+.row2{
+    margin-top: 16px;
+    width: 290px;
+}
+.margin-row2{
+    margin-right: 4px;
+}
+.main2-2 p{
+    font-size: 14px;
+}
+.row3{
+    width: 620px;
+}
+.row4{
+    display: flex;
+    margin-top: 16px;
+}
+.row4 input{
+    width: 180px;
+}
+.row4-margin{
+    margin-right: 9px;
+}
+.row5{
+    display: flex;
+    margin-top: 16px;
+}
+.row5-1 , .row5-2{
+    display: flex;
+    border: 1px solid #DADADA;
+    border-radius: 8px;
+    color: #DADADA;
+    font-size: 14px;
+    width: 212px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 15px;
+}
+.row5-1{
+    margin-right: 10px;
+}
+.row6{
+    display: flex;
+    width: 654px;
+    border: 1px solid #DADADA;
+    border-radius: 8px;
+    color: #DADADA;
+    font-size: 14px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 15px;
+    margin-top: 16px;
+    letter-spacing: inherit;
+    word-spacing: inherit;
+}
+button{
+    border: 1px solid #232529;
+    border-radius: 4px;
+    width: 384px;
+    padding-top:  10px;
+    padding-bottom: 10px;
+    margin-top: 40px;
+    background-color: #232529;
+    color: white;
+    font-size: 20px;
+    font-weight: normal;
+}
+.button{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+input::-webkit-input-placeholder {
+    color: #DADADA;
+}
+
+.color-choose{
+    color: black;
+}
+.optgroup {
+    color: black;
+    font-weight: bold;
+}
+
+.d-block{
+    display: block!important;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    color: #084298;
+    background-color: #cfe2ff;
+    border-color: #b6d4fe;
+    width: 300px;
+    padding: 15px;
+    border-radius: 15px;
+}

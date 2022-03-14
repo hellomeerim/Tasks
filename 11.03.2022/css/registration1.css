@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100&display=swap');
+
+body{
+    background-color: black;
+}
+
+input{
+    width: 180px;
+}
+.main1{
+    margin: 0 auto;
+    width: 664px;
+    height: 576px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: white;
+    padding: 30px 20px 20px 20px;
+    font-family: 'Sora', sans-serif;
+}
+.main1 p{
+    font-size: 14px;
+}
+.main1-1{
+    width: 664px;
+}
+.main1-1 h2{
+    font-size: 16px;
+}
+.main1-1 p{
+    font-size: 14px;
+}
+.main1 input{
+    padding: 15px;
+    justify-content: space-around;
+    border: 1px solid #DADADA;
+    border-radius: 8px;
+    font-size: 14px;
+}
+.margin-1{
+    margin-right: 5px;
+}
+/* Паспортные данные */
+.row1{
+    display: flex;
+}
+/* .birthdate {
+    display: flex;
+    border: 1px solid #DADADA;
+    border-radius: 8px;
+    color: #DADADA;
+    font-size: 14px;
+    width: 170px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+} */
+/*.bankname top codes*/
+
+.bank-choose{
+    border: 1px solid #DADADA;
+    border-radius: 8px;
+    color: #DADADA;
+    font-size: 14px;
+    width: 200px;
+    align-items: center;
+    /*justify-content: space-between;*/
+    padding: 10px 15px;
+}
+.bank-value{
+    color: black;
+    /*border: 1px solid white;*/
+    /*border-radius: 4px;*/
+}
+option{
+    border: 1px solid white;
+    border-radius: 4px
+}
+.adress{
+    width: 400px;
+    margin-left: 10px;
+}
+.adress1{
+    width: 402px;
+}
+.row2, .row3{
+    display: flex;
+}
+.margin-2{
+    margin-right: 10px;
+}
+button{
+    border: 1px solid #232529;
+    width: 384px;
+    padding-top:  10px;
+    padding-bottom: 10px;
+    margin-top: 40px;
+    background-color: #232529;
+    color: white;
+    font-size: 20px;
+    font-weight: normal;
+    border-radius: 4px;
+}
+.button{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+input::-webkit-input-placeholder {
+    color: #DADADA;
+}
+
+.date{
+    color:#DADADA;
+}
+
+
+.d-block{
+    display: block!important;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    color: #084298;
+    background-color: #cfe2ff;
+    border-color: #b6d4fe;
+    width: 300px;
+    padding: 15px;
+    border-radius: 15px;
+}
