@@ -45,7 +45,7 @@ btnSubmit.onclick = (event) => {
         showNotification()
     } else {
         console.log(object2);
-        window.localStorage.setItem('credit', JSON.stringify(credit));
+        window.localStorage.setItem('object2', JSON.stringify(object2));
     }
 }
 

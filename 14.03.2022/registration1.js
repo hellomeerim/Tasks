@@ -47,7 +47,7 @@ btnSubmit1.onclick = (event) => {
         showNotification();
     } else {
         console.log(object1);
-        window.localStorage.setItem('user', JSON.stringify(user));
+        window.localStorage.setItem('object1', JSON.stringify(object1));
         window.location.href = 'registration2.html';
     }
 }
