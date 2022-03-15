@@ -14,7 +14,7 @@ btnSubmit.onclick = (event) => {
     let creditMonth = document.querySelector('#credit-month').value;
     let creditAddress = document.querySelector('#credit-address').value;
 
-    let object = {
+    let object2 = {
         name: userName,
         position: userPosition,
         monthSalary: userMonthSalary,
@@ -28,7 +28,7 @@ btnSubmit.onclick = (event) => {
         address: creditAddress
     }
 
-    console.log(object)
+    console.log(object2)
     let notification = document.querySelector('#message');
  
     const showNotification = () => {
@@ -44,7 +44,8 @@ btnSubmit.onclick = (event) => {
     if (userName === '' || userPosition === '' || userMonthSalary === '' || userPeriodSalary === ''){
         showNotification()
     } else {
-        console.log(object)
+        console.log(object2);
+        window.localStorage.setItem('credit', JSON.stringify(credit));
     }
 }
 

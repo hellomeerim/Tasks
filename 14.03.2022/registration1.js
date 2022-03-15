@@ -15,7 +15,7 @@ btnSubmit1.onclick = (event) => {
     let banks = document.querySelector('#banks').value;
     let homeAddress = document.querySelector('#home-address').value;
 
-    let object = {
+    let object1 = {
         surname: surname,
         name: name,
         patronymic: patronymic,
@@ -46,7 +46,9 @@ btnSubmit1.onclick = (event) => {
     if (surname === '' || name === '' || id === '' || tin === '' || dateOfGetting === ''){
         showNotification();
     } else {
-        console.log(object)
+        console.log(object1);
+        window.localStorage.setItem('user', JSON.stringify(user));
         window.location.href = 'registration2.html';
     }
-} 
+}
+
