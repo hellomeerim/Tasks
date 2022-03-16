@@ -1,7 +1,6 @@
 let btnSubmit= document.querySelector('#btn');
-btnSubmit.onclick = (event) => {
 
-    event.preventDefault();
+btnSubmit.onclick = (event) => {
     let userName = document.querySelector('#user-name').value;
     let userPosition = document.querySelector('#user-position').value;
     let userMonthSalary = document.querySelector('#user-month-salary').value;
@@ -43,6 +42,7 @@ btnSubmit.onclick = (event) => {
 
     if (userName === '' || userPosition === '' || userMonthSalary === '' || userPeriodSalary === ''){
         showNotification()
+        return
     } else {
         console.log(object2);
         window.localStorage.setItem('object2', JSON.stringify(object2));
