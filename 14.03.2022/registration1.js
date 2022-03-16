@@ -1,7 +1,6 @@
 let btnSubmit1= document.querySelector('#btn1');
 
 btnSubmit1.onclick = (event) => {
-    event.preventDefault();
     let surname = document.querySelector('#surname').value;
     let name = document.querySelector('#name').value;
     let patronymic = document.querySelector('#patronymic').value;
